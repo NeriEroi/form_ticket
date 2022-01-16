@@ -50,10 +50,12 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .input_cont  button:hover {
     background-color: lime;
+    border-color: black;
 }
 
 .input_cont #alert_data {
