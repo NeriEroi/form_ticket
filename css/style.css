@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.input_cont {
+    min-width: 627px;
+    min-height: 53vh;
+    background-color: rgb(55, 86, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.input_cont input {
+    background-color: wheat;
+    padding: 4px;
+}
+
+.input_cont .height_alert {  
+    height: 5px;
+}
+
+.input_cont h1 {
+    margin-top: 5px;
+    color: white;
+}
+
+.input_cont h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input_cont div {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input_cont button{
+    background-color: darkorange;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input_cont  button:hover {
+    background-color: lime;
+    border: 2px solid black;
+}
+
+.input_cont #alert_data {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: red;
+    background-color: yellow;
+    margin-bottom: 13px;
+    
+}
+
+.input_cont #alert_name,
+.input_cont #alert_surname,
+.input_cont #alert_km,
+.input_cont #alert_age {
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: red;
+    background-color: yellow;
+    margin: 5px 0 13px 0;
+    position: absolute;
+    top: 38%;
+    left: 105%;
+}
+
+#show_ticket {
+    min-width: 627px;
+    min-height: 47vh;
+    height: 50vh;
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 27px;
+    color: white;
+}
+
+#show_ticket .data {
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+#show_ticket .data p {
+    font-size: 17px;
+}
+
+#segnaposto {
+    min-width: 627px;
+    min-height: 47vh;
+    background-color: rgb(5, 201, 47);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 51px;
+    color: white;
+}
