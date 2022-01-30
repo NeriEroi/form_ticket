@@ -103,7 +103,7 @@ function getPassenger() {
                 segnaposto.style.display = "none";
                 showTicket.style.display = "block";
             } else {
-                alert("Your travel can't start with 0 km...")
+                alert("Your travel can't start with 0 km...");
             }
         }
     }

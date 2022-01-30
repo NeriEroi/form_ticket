@@ -90,8 +90,7 @@
 
 #show_ticket {
     min-width: 627px;
-    min-height: 47vh;
-    height: 50vh;
+    min-height: 41.8vh;
     background-color: darkorange;
     display: flex;
     flex-direction: column;
@@ -111,7 +110,7 @@
 
 #segnaposto {
     min-width: 627px;
-    min-height: 47vh;
+    min-height: 41.8vh;
     background-color: rgb(5, 201, 47);
     text-align: center;
     padding-top: 50px;
