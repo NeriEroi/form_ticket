@@ -60,7 +60,6 @@
 
 .input_cont #alert_data {
     width: 200px;
-    height: 25px;
     line-height: 25px;
     font-weight: bold;
     border: 1px solid blue;
@@ -76,7 +75,6 @@
 .input_cont #alert_km,
 .input_cont #alert_age {
     width: 200px;
-    height: 25px;
     line-height: 25px;
     text-align: center;
     font-weight: bold;
@@ -86,7 +84,7 @@
     background-color: yellow;
     margin: 5px 0 13px 0;
     position: absolute;
-    top: 38%;
+    top: 42%;
     left: 105%;
 }
 
